@@ -2,7 +2,10 @@ import axios from 'axios'
 import { useState } from 'react'
 // import ClassComponent from './ClassComponent'
 // import FunctionalComponent from './FunctionalComponent';
-import Products from './Products'
+// import Products from './Products'
+// import Flexbox from './Flexbox'
+// import Login from './Login'
+import Signup from './Signup/index'
 
 
 function App() {
@@ -13,7 +16,10 @@ function App() {
     {/* <FunctionalComponent><FunctionalComponent/> */}
       {/* {showComponent ? <ClassComponent showComponent={showComponent}/> : null}
       <button onClick={() => setShowComponent(!showComponent)}>{showComponent ? 'Hide' : 'Show'}component</button> */}
-      <Products/>
+      {/* <Products/> */}
+      {/* <Flexbox/> */}
+      {/* <Login/> */}
+      <Signup/>
     </>
   )
 }
